@@ -30,9 +30,11 @@ body{
 }
 
 #contentContainer button{
+    display: block;
+    margin:10px;
     padding: 20px;
     font-size: 1.5rem;
-    width: 200px;
+    max-width: 400px;
     background-color: rgb(187, 187, 233);
     border: none;
     border-radius: 10px;
@@ -46,11 +48,33 @@ body{
 
 
 img{
-    
     max-width: 100%;
     height: auto;
 }
 
+#statusContainer
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
 
+#inventoryContainer{
+    font-size: 1.3rem;
+    margin: 5px;
+    padding: 10px;
+    background-color: beige;
+    width: 500px;
+    text-align: left;
+}
+
+#battleContainer{
+    font-size: 1.3rem;
+    margin: 5px;
+    padding: 10px;
+    background-color: beige;
+    width: 500px;
+    text-align: left;
+}
 
 
